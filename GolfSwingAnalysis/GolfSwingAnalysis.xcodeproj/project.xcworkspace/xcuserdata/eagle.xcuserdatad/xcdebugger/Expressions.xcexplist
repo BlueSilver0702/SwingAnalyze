@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[VideoPlayViewController imagePickerController:didFinishPickingMediaWithInfo:]:VideoPlayViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imagerollUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VideoPlayViewController updateSeekBarsPosition:]:VideoPlayViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_myFrameSeekBar.frame">
+            </PersistentString>
+            <PersistentString
+               value = "frameSeeker.center">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,1 @@
+../../../RSTCoreDataKit/RSTCoreDataKit/NSManagedObject+RSTCoreDataKit.h

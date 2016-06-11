@@ -1,0 +1,6 @@
+framework module RSTCoreDataKit {
+  umbrella header "RSTCoreDataKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

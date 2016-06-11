@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DownPicker (0.1.34)
+  - IQKeyboardManager (3.3.4)
+  - JGProgressHUD (1.3.1)
+  - LinqToObjectiveC (2.0.0)
+  - M13Checkbox (1.1.2)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - PureLayout (3.0.1)
+  - RSTCoreDataKit (0.1.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SwipeView (1.3.2)
+  - TLTagsControl (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - DownPicker
+  - IQKeyboardManager
+  - JGProgressHUD
+  - LinqToObjectiveC
+  - M13Checkbox
+  - MWFeedParser
+  - PureLayout
+  - RSTCoreDataKit
+  - SDWebImage (~> 3.7)
+  - SwipeView
+  - TLTagsControl (from `https://github.com/ali312/TLTagsControl.git`)
+
+EXTERNAL SOURCES:
+  TLTagsControl:
+    :git: https://github.com/ali312/TLTagsControl.git
+
+CHECKOUT OPTIONS:
+  TLTagsControl:
+    :commit: 1043bb4eab751f4b9a73eef5b445efd2f57bad35
+    :git: https://github.com/ali312/TLTagsControl.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
+  LinqToObjectiveC: 768f98c62d5b57cb6bdb7ab869e33d0a7a2da29c
+  M13Checkbox: 0c0bb08dcd144c4ea33f883b68270f3f56908ea2
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  RSTCoreDataKit: 9a48c002c36fca23ee9183b5c330f98ad44a5b4c
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SwipeView: bd67cfaf7760c036438446b3ccb28a3b84fce009
+  TLTagsControl: 34ab7d25f282aa2b8b42e73cc71b96ffe9fa7a15
+
+COCOAPODS: 0.39.0

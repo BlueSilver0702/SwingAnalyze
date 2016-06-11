@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target "Swing Analysis" do
+
+pod 'AFNetworking', '~> 2.0'
+pod 'PureLayout'
+pod 'DownPicker'
+pod 'M13Checkbox'
+pod 'LinqToObjectiveC'
+pod 'MWFeedParser'
+pod 'SwipeView'
+pod 'TLTagsControl', :git => 'https://github.com/ali312/TLTagsControl.git'
+pod 'SDWebImage','~> 3.7'
+pod 'IQKeyboardManager'
+pod 'RSTCoreDataKit'
+pod 'JGProgressHUD'
+
+end

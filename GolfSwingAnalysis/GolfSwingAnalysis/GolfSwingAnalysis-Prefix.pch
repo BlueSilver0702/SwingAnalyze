@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'GolfSwingAnalysis' target in the 'GolfSwingAnalysis' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import <PureLayout/PureLayout.h>
+#import <AFNetworking/AFNetworking.h>
+#import "Constants.h"
+#import "APIService.h"
+#import "NSArray+LinqExtensions.h"
+#import "NSDictionary+LinqExtensions.h"
+#import "AppSetttings.h"
+#import "SDWebImageManager.h"
+#import <JGProgressHUD/JGProgressHUD.h>
+#import "CommonFunc.h"
+#import <RSTCoreDataKit/RSTCoreDataKit.h>
+#import "VideoEntity.h"
+#import "UIColor+HexString.h"
+
+#define IS_WIDESCREEN ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+#define IS_IPAD_DEVICE ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPad" ] )
+#define IS_IPAD_SIMULATOR ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPad Simulator" ] )
+#define IS_IPHONE_DEVICE ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPhone" ] )
+#define IS_IPHONE_SIMULATOR ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPhone Simulator" ] )
+#define IS_IPOD_DEVICE   ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPod touch" ] )
+
+#define IS_IPHONE_5 ( (IS_IPHONE_DEVICE || IS_IPHONE_SIMULATOR) && IS_WIDESCREEN )
+#define IS_IPAD ( IS_IPAD_DEVICE || IS_IPAD_SIMULATOR )
+
+#endif

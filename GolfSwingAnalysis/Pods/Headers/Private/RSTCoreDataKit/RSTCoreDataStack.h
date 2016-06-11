@@ -1,0 +1,1 @@
+../../../RSTCoreDataKit/RSTCoreDataKit/RSTCoreDataStack.h
